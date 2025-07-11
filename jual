@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toko App Premium</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      background: white;
+      padding: 20px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    h1 {
+      text-align: center;
+      color: #007bff;
+    }
+    .app {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .app:last-child {
+      border: none;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .button:hover {
+      background: #20b358;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 Toko App Premium</h1>
+    <div class="app">
+      <h3>Canva Pro</h3>
+      <p>Harga: Rp15.000/bulan</p>
+      <a class="button" href="https://wa.me/6281234567890?text=Halo%20admin,%20saya%20mau%20order%20Canva%20Pro">Pesan Sekarang</a>
+    </div>
+    <div class="app">
+      <h3>CapCut Pro</h3>
+      <p>Harga: Rp10.000/bulan</p>
+      <a class="button" href="https://wa.me/6281234567890?text=Halo%20admin,%20saya%20mau%20order%20CapCut%20Pro">Pesan Sekarang</a>
+    </div>
+    <div class="app">
+      <h3>Spotify Premium</h3>
+      <p>Harga: Rp20.000/bulan</p>
+      <a class="button" href="https://wa.me/6281234567890?text=Halo%20admin,%20saya%20mau%20order%20Spotify%20Premium">Pesan Sekarang</a>
+    </div>
+    <!-- Tambahkan lebih banyak app di sini -->
+  </div>
+</body>
+</html>
